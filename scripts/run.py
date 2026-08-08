@@ -1,8 +1,13 @@
 from src.data.factory import LoaderFactory
+from src.config.config import Config
+
 
 def main():
 
-    loader = LoaderFactory.create("data/raw/example.csv")
+    config = Config("config.yaml")
+    dataset_path = config.dataset_path
+
+    loader = LoaderFactory.create(dataset_path)
 
     dataframe = loader.load()
 

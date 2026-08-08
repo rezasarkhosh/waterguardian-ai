@@ -1,0 +1,11 @@
+project:
+  name: waterguardian-ai
+  version: 0.1.0
+
+data:
+  raw_dir: data/raw
+  proccessed_dir: data/processed
+  external_dir: data/external
+
+dataset:
+  path: data/raw/example.csv
