@@ -24,8 +24,8 @@ The goal is to build a production-ready AI platform that demonstrates the comple
 ## 📅 Roadmap
 
 - [x] Initialize project
-- [ ] Design project architecture
-- [ ] Build data pipeline
+- [x] Design project architecture
+- [x] Build data pipeline
 - [ ] Develop baseline ML model
 - [ ] Build FastAPI backend
 - [ ] Containerize using Docker
